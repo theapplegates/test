@@ -1,0 +1,6 @@
+{
+    "tags": "tekniken",
+    "category": "del",
+    "layout": "part.njk",
+    "permalink": "{{ page.filePathStem | splice | slugUrl }}/{{ title | slug }}.html"
+}
